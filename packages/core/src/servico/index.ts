@@ -1,2 +1,2 @@
-import Servico from "./servico"
+import Servico from './Servico'
 export type { Servico }

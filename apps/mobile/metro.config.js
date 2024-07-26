@@ -11,4 +11,5 @@ config.resolver.nodeModulesPaths = [
     path.resolve(monorepoRoot, 'node_modules'),
 ]
 
-module.exports = config;
+config.resolver.disableHierarchicalLookup = true
+module.exports = config
